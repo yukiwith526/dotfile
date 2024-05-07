@@ -1,0 +1,9 @@
+[tools]
+node = "latest"
+flutter = "latest"
+dart = "latest"
+python = "latest"
+ruby = "latest"
+go = "latest"
+deno = "latest"
+rust = "latest"
