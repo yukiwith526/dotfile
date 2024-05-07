@@ -1,0 +1,182 @@
+{
+  "editor.tabSize": 1,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "ρ": true
+  },
+  "editor.unicodeHighlight.allowedLocales": {
+    "cs": true
+  },
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.syntaxProfiles": {},
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.editor.empty.hint": "hidden",
+  "code-runner.runInTerminal": true,
+  "window.zoomLevel": 1.3,
+  "git.autofetch": true,
+  "git.ignoreRebaseWarning": true,
+  "cmake.configureOnOpen": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "glassit.alpha": 20,
+  "glassit.force_sway": true,
+  "vscode_vibrancy.theme": "Dark (Exclude Tab Line)",
+  "vscode_vibrancy.opacity": -50,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["a", "k"],
+      "after": ["<C-u>"]
+    },
+    {
+      "before": ["a", "j"],
+      "after": ["<C-d>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [":", "w"],
+      "after": [":", "w"],
+      "commands": [
+        {
+          "command": "editor.action.formatDocument",
+          "args": {
+            "provider": "esbenp.prettier-vscode"
+          }
+        }
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "genieai.enableConversationHistory": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "dart.flutterSdkPath": "/Users/tedzukayuki/.asdf/installs/flutter/3.19.6-stable",
+  "remote.SSH.useLocalServer": false,
+  "remote.SSH.remotePlatform": {
+    "192.168.3.32": "linux",
+    "192.168.3.240": "linux"
+  },
+  "backgroundCover.imagePath": "/Users/tedzukayuki/Pictures/Screenshot/paper.png",
+  "backgroundCover.opacity": 0.3,
+  "easycode.userEmail": "yukiwith5267@icloud.com",
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "[tex]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tabSize": 2
+  },
+
+  "[latex]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+
+  "[bibtex]": {
+    "editor.tabSize": 2
+  },
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  "go.toolsManagement.autoUpdate": true,
+  "go.vetOnSave": "package",
+
+  "latex-workshop.intellisense.package.enabled": true,
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": ["-silent", "%DOC%"]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.message.error.show": false,
+  "latex-workshop.latex.autoBuild.run": "never",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+  "gitlens.experimental.generateCommitMessagePrompt": "Now, please generate a commit message in Japanese. ",
+  "deepl.formality": "default",
+  "deepl.tagHandling": "off",
+  "deepl.splitSentences": "1",
+  "deepl.translationMode": "Replace",
+  "workbench.panel.defaultLocation": "left",
+  "hediet.vscode-drawio.resizeImages": null,
+  "cmake.showOptionsMovedNotification": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
